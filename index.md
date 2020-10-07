@@ -91,3 +91,43 @@ Extra Section, Call it Whatever You Want
 * Random tidbit
 
 * Other sort of impressive-sounding thing you did
+---
+output: 
+  pdf_document:
+    latex_engine: pdflatex
+    template: ~/Dropbox/miscelanea/svm-r-markdown-templates/svm-latex-cv.tex
+geometry: margin=1in
+
+title: "CV"
+author: William Sealy Gosset
+
+jobtitle: "Chief Brewer, Arthur Guinness & Son"
+address: "Guinness Brewery · Park Royal · London NW10 7RR, UK"
+fontawesome: yes
+email: guinness@consumer-care.net
+# github: svmiller
+phone: "+353 1 408 4800"
+web: guinness.com
+updated: no
+
+keywords: R Markdown, academic CV, template
+
+fontfamily: mathpazo
+fontfamilyoptions: sc, osf
+fontsize: 11pt
+linkcolor: blue
+urlcolor: blue
+---
+<!DOCTYPE html>
+<html>
+<title>Hello Strapdown</title>
+
+<xmp theme="cerulean" style="display:none;">
+
+# 把刚刚Markdown的文本放在这里就可以啦
+
+</xmp>
+
+<script src="http://strapdownjs.com/v/0.2/strapdown.js"></script>
+</html>
+
